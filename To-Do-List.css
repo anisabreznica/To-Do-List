@@ -1,0 +1,98 @@
+body {
+    font-family: cursive;
+    background-color: #595959;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+    
+.container {
+    background-color: #cac3c3;
+    padding: 20px;
+    border-radius: 40px;
+    box-shadow: 2px 2px 20px rgb(214, 41, 70);
+    width: 350px;
+    text-align: center;
+}
+    
+h1 {
+    margin-bottom: 40px;
+}
+    
+.input-container {
+    display: flex;
+    justify-content: space-between;
+}
+    
+#task-input {
+    width: 70%;
+    padding: 10px;
+    border: 1px solid #ff0000;
+    border-radius: 50px;
+}
+    
+#add-task-button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+}
+    
+#add-task-button:hover {
+    background-color: #00e955;
+    color: #000;
+    border: 2px solid rgb(0, 0, 0);
+}
+    
+#task-list {
+    padding: 0;
+    margin-top: 20px;
+}
+    
+.task-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 10px;
+    border: 1px solid #ba1f1f;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+    
+.task-item.completed {
+    text-decoration: line-through;
+    color: #768591;
+}
+    
+.task-actions button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+    
+.task-actions button:hover{
+    border: 1px solid black;
+    background-color: rgb(128, 175, 192);
+}
+    
+    
+.task-actions .complete-button {
+    color: #00ff3c;
+}
+    
+.task-actions .delete-button {
+    color: #ff0019;
+}
+
+.task-actions .complete-button:hover {
+    color: #00ff37;
+}
+    
+.task-actions .delete-button:hover {
+    color: #ff0019;
+}
